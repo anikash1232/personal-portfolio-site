@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "comp-426"
+assignment: "a01-personal-portfolio"
+owner:
+  username: "anikash1232"
+  id: 96270037
+  accepted_at: "2026-09-01T23:50:13Z"
+source:
+  owner: "comp426-26f"
+  owner_id: 306301300
+  repo: "a01-template"
+  branch: "main"
