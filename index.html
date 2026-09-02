@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of Anirudh 'Ani' Kashyap, a Computer Science student at UNC Chapel Hill building software and researching accessibility technology." />
+  <meta name="author" content="Anirudh Kashyap" />
+  <meta name="theme-color" content="#0b132b" />
+
+  <!-- Open Graph metadata for nicer link previews -->
+  <meta property="og:title" content="Anirudh Kashyap — CS Student & Software Engineer" />
+  <meta property="og:description" content="CS student at UNC Chapel Hill, building software and researching accessibility tech." />
+  <meta property="og:type" content="website" />
+
+  <title>Anirudh Kashyap — Portfolio</title>
+
+  <!-- Google Fonts: Space Grotesk (headings) + Inter (body). See styles.css comment. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============ HEADER / HERO ============ -->
+  <header class="hero">
+    <nav class="nav" aria-label="Primary">
+      <span class="nav__brand">AK</span>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__content">
+      <img
+        class="hero__photo"
+        src="images/profile.jpg"
+        alt="Portrait of Anirudh Kashyap"
+        width="200"
+        height="200"
+      />
+      <div class="hero__text">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__name">Anirudh <span class="accent">&ldquo;Ani&rdquo;</span> Kashyap</h1>
+        <p class="hero__bio">
+          CS student at UNC Chapel Hill, building software and researching
+          accessibility tech.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#about">Learn more</a>
+          <a class="btn btn--ghost" href="#skills">See my skills</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="section__inner">
+        <p class="section__label">01 — About</p>
+        <h2 class="section__title">About me</h2>
+        <p class="about__text">
+          I'm a Computer Science major at UNC Chapel Hill, graduating Fall 2026.
+          I do contract software engineering work for Integrus, TA for COMP 210,
+          and do research under Professor Goodwin on an ADA Accessibility Tool
+          project. Outside of school, I play Carnatic violin, run and lift daily,
+          and play badminton and pickleball.
+        </p>
+
+        <ul class="about__highlights">
+          <li class="highlight">
+            <span class="highlight__title">Software Engineer</span>
+            <span class="highlight__detail">Contract work @ Integrus</span>
+          </li>
+          <li class="highlight">
+            <span class="highlight__title">Teaching Assistant</span>
+            <span class="highlight__detail">COMP 210 — Data Structures</span>
+          </li>
+          <li class="highlight">
+            <span class="highlight__title">Researcher</span>
+            <span class="highlight__detail">ADA Accessibility Tool</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CLASSES ============ -->
+    <section id="classes" class="section section--alt">
+      <div class="section__inner">
+        <p class="section__label">02 — Coursework</p>
+        <h2 class="section__title">Classes</h2>
+        <ul class="classes">
+          <li class="course">
+            <span class="course__code">COMP 110</span>
+            <span class="course__name">Introduction to Programming</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 210</span>
+            <span class="course__name">Data Structures and Analysis</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 211</span>
+            <span class="course__name">Systems Fundamentals</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 301</span>
+            <span class="course__name">Foundations of Programming</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 311</span>
+            <span class="course__name">Computer Organization</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 423</span>
+            <span class="course__name">Software Engineering</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 455</span>
+            <span class="course__name">Theory of Computation</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 550</span>
+            <span class="course__name">Algorithms</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 590-136</span>
+            <span class="course__name">Mobile AI Systems and Application Development</span>
+          </li>
+          <li class="course">
+            <span class="course__code">COMP 426</span>
+            <span class="course__name">Modern Web Programming</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="section__inner">
+        <p class="section__label">03 — Toolkit</p>
+        <h2 class="section__title">Skills</h2>
+        <div class="skills">
+          <article class="skills__group">
+            <h3 class="skills__heading">Languages</h3>
+            <ul class="tags">
+              <li class="tag">Python</li>
+              <li class="tag">Java</li>
+              <li class="tag">JavaScript/TypeScript</li>
+              <li class="tag">Kotlin</li>
+              <li class="tag">SQL</li>
+            </ul>
+          </article>
+
+          <article class="skills__group">
+            <h3 class="skills__heading">Frameworks &amp; Tools</h3>
+            <ul class="tags">
+              <li class="tag">React</li>
+              <li class="tag">SQLModel/SQLAlchemy</li>
+              <li class="tag">Docker</li>
+              <li class="tag">Firebase (Auth/Firestore)</li>
+              <li class="tag">Git/GitHub</li>
+              <li class="tag">Flask</li>
+            </ul>
+          </article>
+
+          <article class="skills__group">
+            <h3 class="skills__heading">Other</h3>
+            <ul class="tags">
+              <li class="tag">REST APIs</li>
+              <li class="tag">Android Development</li>
+              <li class="tag">Agile/Scrum</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__name">Anirudh &ldquo;Ani&rdquo; Kashyap</p>
+      <p class="footer__note">
+        Built with plain HTML &amp; CSS for COMP 426 &middot; UNC Chapel Hill
+      </p>
+      <p class="footer__copy">&copy; 2026 Anirudh Kashyap</p>
+    </div>
+  </footer>
+</body>
+</html>
